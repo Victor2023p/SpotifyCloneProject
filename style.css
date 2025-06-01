@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    background-color: black;
+    color: white;
+    padding: 0 20px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    height: 72px;
+    align-items: center;
+}
+.nav-list li {
+    /* padding: 20px; */
+    margin: 0 20px;
+}
+.nav-list-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    background: #1ed760;
+    height: 2px;
+    width: 100%;
+    bottom: -8px;
+    transform: scaleX(0);
+    transition: all .35s ease;
+}
+.nav-list-link:hover::after {
+    transform: scaleX(1);
+}
+.nav-list-link:hover {
+    color: #1ed760;
+}
+a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+
+.spotify-image {
+    width: 270%;
+    fill: white;
+    margin: 0 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo-image {
+    height: 16px;
+    width: 1px;
+    background: white;
+    color: black;
+}
+.profile-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.profile-arrow {
+    display: flex;
+    fill: white;
+}
+.profile-arrow:hover {
+    display: flex;
+    fill: #1ed760;
+    color: #1ed760;
+}
+.profile-arrow svg {
+    width: 12px;
+    margin-left: 8px;
+}
