@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    height: 3325px;
 }
 header {
     display: flex;
@@ -78,4 +79,258 @@ a {
 .profile-arrow svg {
     width: 12px;
     margin-left: 8px;
+}
+.nav-container {
+    position: relative;
+}
+.image-main { 
+    height: 520px;
+    width: 99vw;
+    object-fit: cover;
+    object-position: center 40%;
+}
+.message {
+    font-size: 64px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 830px;
+}
+.regist-btn {
+    background-color: white;
+    color: black;
+    /* border: none; */
+    height: 50px;
+    width: 305px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    cursor: pointer;
+}
+.regist-btn:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+}
+.article-part-1 {
+    position: relative;
+    height: 646px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 15px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 40px;
+}
+h3 {
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.text-content {
+    width: 250px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.ul-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 35%;
+}
+.li-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    text-align: center;
+}
+.article-part-2 {
+    height: 450px;
+    background: url('https://wwwmarketing.scdn.co/static/images/free/mobile_benefit.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: rgb(30, 215, 96);
+    background-size: 42%;
+}
+.h1-message {
+    text-align: center;
+    padding: 64px 0 48px;
+    font-size: 47px;
+}
+.article-part-3 {
+    height: 400px;
+    /* background-color: antiquewhite; */
+    margin: 0 63px;
+    padding: 75px 50px;
+}
+.title-article-3 {
+    text-align: center;
+}
+.ul-content-article-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 75px;
+}
+.li-element-article-3 {
+    padding: 26px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px rgb(230, 230, 230) solid;
+    width: 90%;
+    text-decoration: solid;
+}
+.li-element-article-3:hover {
+    text-decoration: underline;
+    background-color: #f0f0f0;
+}
+.logo-arrow {
+    transform: rotate(180deg);
+    height: 24px;
+    width: 24px;
+}
+.ul-content-article-3 li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul-content-article-3 li:last-of-type {
+    border: none;
+}
+.article-part-4 {
+    height: 450px;
+    background: url('https://wwwmarketing.scdn.co/static/images/free/desktop-closing.jpeg') center 35% / cover;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-article-4 {
+    color: white;
+    font-size: 64px;
+    margin: 140px 0 40px;
+}
+.regist-btn-2 {
+     background-color: white;
+    color: black;
+    border: none;
+    height: 50px;
+    width: 305px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.regist-btn-2:hover {
+    transform: scale(1.05);
+    font-weight: bold;
+}
+.footer {
+    position: relative;
+    height: 80vh;
+    width: 99,5vw;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+    padding: 80px 80px 80px 275px;
+}
+.spotify-image-footer {
+    width: 25%;
+    transform: scale(5);
+    margin-top: 30px;
+}
+.spotify-image-link {
+    fill: white;
+    height: 100%;
+    width: 100px;
+}
+.footer .nav-list-footer li a {
+    color: white;
+}
+
+.li-elements-footer {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+.nav-list-footer {
+    display: flex;
+    align-items: flex-start;
+}
+footer ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    width: 140px;
+    font-weight: 500;
+}
+.footer .nav-list-footer .li-elements-footer a:hover {
+    color: #1ed760;
+}
+.title-footer {
+    color: grey;
+    font-weight: bold;
+    font-size: 13px;
+    width: 125px;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+.footer-logo-container {
+    display: flex;
+}
+.footer-link-image {
+    background-color: grey;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0.30;
+    margin: 10px 20px 0 10px;
+}
+.logo-footer-image {
+    position: relative;
+    z-index: 1;
+    height: 20px;
+    width: 20px;
+    fill: white;
+}
+.ul-last-list {
+    position: absolute;
+    bottom: 7%;
+    left: 11%;
+}
+.ul-last-list li {
+    display: flex;
+}
+.title-end {
+    color: grey;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.title-end:hover {
+    color: #1ed760;
+}
+.language-text {
+    position: absolute;
+    bottom: 16%;
+    left: 78%;
+}
+.planet-logo {
+    margin-right: 5px;
+}
+.special-text {
+    margin-left: 125px;
+}
+.special-text:hover {
+    color: grey;
+    cursor: text;
 }
