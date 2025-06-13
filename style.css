@@ -51,12 +51,17 @@ a {
     color: inherit;
     font-weight: 700;
 }
+  .logo-container {
+        display: flex;
+        width: auto;
+        height: auto;
+}
 
 .spotify-image {
-    width: 270%;
+    width: 100px;
     fill: white;
     margin: 0 20px;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
 }
