@@ -348,9 +348,6 @@ footer ul li a {
         display: block;
     }
     .nav-list {
-        width: 0;
-    }
-    .nav-list-link, .profile-arrow, .logo-image {
         display: none;
     }
    header {
@@ -360,42 +357,55 @@ footer ul li a {
         width: 100%;
     }
     .message {
-        font-size: 40px;
-        width: 500px;
+        font-size: 30px;
+        width: 300px;
         text-align: center;
         top: 40%;
-        left: 18%;
+        left: 10%;
     }
     .regist-btn {
-        top: 75%;
-        left: 30%;
+        top: 70%;
+        left: 10%;
     }
     .article-part-1 {
         padding: 0;
-        height: 720px;
+        height: 900px;
     }
     h1 {
         font-size: 30px;
     }
     .ul-content {
         flex-direction: column;
-        top: 50%;
+        top: 52%;
+        margin-left: -30px;
     }
     .li-element {
         flex-direction: row;
+        margin: 0;
+        margin-bottom: 30px;
     }
     .li-element img {
         margin-bottom: 35px;
-        width: 18%;
+        width: 30%;
     }
     h3 {
-        margin: 0;;
+        margin: 0;
+        width: 200px;
+    }
+    .text-content {
+        width: 230px;
     }
     .article-part-2 {
         display: flex;
         justify-content: center;
-        background-size: 70%;
+        background-size: 130%;
         height: 400px;
+    }
+    .article-part-1-text-content {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 10px;
     }
     .h1-message {
         width: 327px;
@@ -403,5 +413,51 @@ footer ul li a {
         line-height: 1.5;
         padding-top: 15px;
         padding-bottom: 0;
+    }
+    .article-part-3 {
+        padding: 0;
+        margin: 0;
+    }
+    .ul-content-article-3 {
+        margin: 0;
+    }
+    .ul-content-article-3 li a {
+        width: 250px;
+    }
+    .li-element-article-3 {
+        padding-left: 0;
+    }
+    .article-part-4 {
+        height: 400px;
+    }
+    .title-article-4 {
+        font-size: 30px;
+    }
+    .footer {
+        height: 1400px;
+        flex-direction: column;
+        padding: 0;
+        padding-left: 80px;
+    }
+    .nav-list-footer {
+        flex-direction: column;
+        padding: 0;
+        margin-left: -50px;
+    }
+    .spotify-image-link {
+        height: 5%;
+    }
+    .ul-last-list {
+        left: -4%;
+    }
+    .ul-last-list li {
+        display: block;
+    }
+    .language-text {
+        bottom: 20%;
+        left: 58%;
+    }
+    .special-text {
+        margin: 0;
     }
 }
